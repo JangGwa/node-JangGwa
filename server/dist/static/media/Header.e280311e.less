@@ -1,0 +1,43 @@
+.header-container {
+  display: flex;
+  height: 60px;
+  padding: 0 16px;
+  align-items: center;
+
+  .img-logo {
+    float: left;
+    width: 100px;
+  }
+
+  .main-nav {
+    margin: 0 18px 0 27px;
+    font-size: 15px;
+    color: #999;
+
+    a {
+      color: #8590a6;
+      padding: 0 15px;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+  
+      &:last-child {
+        padding-right: 0;
+      }
+
+      &:hover {
+        color: #175199
+      }
+    }
+
+    a current{
+      color: #333;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+
+}
